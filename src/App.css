@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+.navbar {
+  background: rgba(189, 241, 198, 0.274);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.navbar a{
+  text-decoration: none;
+  background: rgba(23, 219, 56, 0.856);
+  padding: 8px 25px;
+  margin: 10px 25px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+.logout-btn {
+  text-decoration: none;
+  margin: auto;
+  background: rgba(23, 219, 56, 0.856);
+  padding: 8px 25px;
+  margin: 10px 25px;
+  border-radius: 20px;
+  border: 0px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+.logout {
+ 
+  margin: 100px auto;
+  width: 200px;
+  height: 200px;
+  background: rgba(93, 218, 113, 0.274);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.list_container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.employee_card img{
+  width: 150px;
+  height: 150px;
+ 
+}
+
+.employee_card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
